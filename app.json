@@ -1,29 +1,37 @@
 {
   "expo": {
-    "name": "sudoku-portals",
+    "name": "Sudoku: Portals",
     "slug": "sudoku-portals",
-    "version": "1.0.0",
+    "version": "2.0.0",
+    "entryPoint": "App.js",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/SudokuPortalsAppIcon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/SudokuPortalsAppIcon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#248a8b"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.sudokuportals"
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/SudokuPortalsAppIcon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.sudokuportals"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/SudokuPortalsAppIcon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "498779ac-8475-461b-b293-780302e5129f"
+      }
     }
   }
 }
